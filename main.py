@@ -4,16 +4,6 @@ from dataclasses import dataclass
 from typing import Optional
 
 set_website_title("Checkers")
-set_site_information(
-    author="Brady Krick",
-    description="Teaches and plays a two-person checkers game.",
-    sources=["https://www.britannica.com/topic/checkers",
-             "https://en.wikipedia.org/wiki/International_draughts",
-             "https://en.wikipedia.org/wiki/Russian_draughts",
-             "https://en.wikipedia.org/wiki/Turkish_draughts"]
-    planning=["Plan.pdf"],
-    links=["https://github.com/BradyJKrick/Checkers"]
-)
 hide_debug_information()
 set_website_framed(False)
 
