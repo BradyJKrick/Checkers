@@ -4,9 +4,15 @@ from dataclasses import dataclass
 from typing import Optional
 
 set_website_title("Checkers")
+set_site_information(
+    author="Brady Krick",
+    description="Teaches and plays a two-person checkers game.",
+    sources="Thanks to the Drafter docs",
+    planning=["Plan.pdf"],
+    links=["https://github.com/BradyJKrick/Checkers/"]
+)
 hide_debug_information()
 set_website_framed(False)
-
 
 @dataclass
 class Piece:
