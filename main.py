@@ -11,7 +11,7 @@ set_site_information(
              "https://en.wikipedia.org/wiki/International_draughts",
              "https://en.wikipedia.org/wiki/Russian_draughts",
              "https://en.wikipedia.org/wiki/Turkish_draughts"]
-    planning=["plan.pdf"],
+    planning=["Plan.pdf"],
     links=["https://github.com/BradyJKrick/Checkers"]
 )
 hide_debug_information()
