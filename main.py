@@ -16,6 +16,7 @@ set_site_information(
              "https://en.wikipedia.org/wiki/Turkish_draughts"]
     planning=["plan.pdf"],
     links=["https://github.com/BradyJKrick/Checkers"]
+)
 
 @dataclass
 class Piece:
