@@ -54,7 +54,7 @@ def welcome_page(state: State) -> Page:
         "You take them by jumping over the opponent's pieces when able."
     ], text_align="left", font_weight="bold")
     picture_section = Div([
-        "welcome_page.jpg"
+        Image(welcome_page.jpg,200,200)
     ], text_align='right')
     return Page(
         state,
@@ -98,7 +98,7 @@ def american_checkers(state: State) -> Page:
         "writings \nfrom the Greek period.",
     ], text_align="left")
     picture_part = Div([
-        "american.jpg"
+        Image(american.jpg,200,200)
     ], text_align="center")
     button_part = Div([
         Button("American Checkers","american_checkers"),
@@ -133,7 +133,7 @@ def international(state: State) -> Page:
         "\nThe starting color for international droughts is the light pieces.",
     ], text_align="left")
     picture_part = Div([
-        "international_droughts.jpg"
+        Image(international_droughts.jpg,200,200)
     ], text_align="center")
     button_part = Div([
         Button("American Checkers","american_checkers"),
@@ -169,7 +169,7 @@ def russian_checkers(state: State) -> Page:
         "mid-capture promotion system \nwhere is a piece reaches the back rank on a jump, it can promote \nand take the rest of its moves as a king.",
     ], text_align="left")
     picture_part = Div([
-        "russian.jpg"
+        Image(russian.jpg,200,200)
     ], text_align="center")
     button_part = Div([
         Button("American Checkers","american_checkers"),
@@ -205,7 +205,7 @@ def turkish_droughts(state: State) -> Page:
         "dama originates from Spanish or Italian meaning \nqueen.",
     ], text_align="left")
     picture_part = Div([
-        "turkish_checkers.png"
+        Image(turkish_checkers.png,200,200)
     ], text_align="center")
     button_part = Div([
         Button("American Checkers","american_checkers"),
